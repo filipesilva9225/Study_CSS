@@ -1,0 +1,49 @@
+/*criando animações com css*/
+
+.animation-box {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  border-radius: 4px;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transforme: translateY(-20px);
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.4);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.bouce {
+  animation: bounce 2s ease infinite;
+}
+
+.pulse {
+  animation: pulse 2s ease infinite;
+}
+
+.spin {
+  animation: spin 2s linear infinite;
+}

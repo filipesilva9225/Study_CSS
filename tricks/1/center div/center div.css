@@ -1,0 +1,26 @@
+.flex-item {
+  padding: 1rem;
+  background-color: blue;
+  color: white;
+  border-radius: 4px;
+}
+
+/* Centralizar com flexbox*/
+.flex-center {
+  display: flex;
+  justify-content: center; /*Centralizar na Horizontal*/
+  align-items: center; /* Centralizar na vertical*/
+  background-color: #fff;
+  height: 150px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+/* Centralizar com Grids*/
+
+.grid-center {
+  display: grid;
+  place-items: center; /* Centraliza vertical e horizontalmente */
+  width: 100vw;
+  border: 2px solid blue;
+}
