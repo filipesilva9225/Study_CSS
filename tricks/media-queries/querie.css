@@ -1,0 +1,7 @@
+/*aplica as configurações somente quando as condições impostas forem atingidas*/
+@media (max-width: 1000px) {
+  .responsive-demo {
+    background-color: red;
+    color: black;
+  }
+}

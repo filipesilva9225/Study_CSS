@@ -1,0 +1,17 @@
+.transition-demo {
+  padding: 1rem 2rem;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/*transição suave*/
+
+.transition-demo:hover {
+  background-color: aqua;
+  transform: translateY(-5px);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
